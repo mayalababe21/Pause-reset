@@ -67,36 +67,49 @@
 
               <div class="col-12 mb-4">
                 <div class="text-left pb-1 border-success mb-4">
-                  <h2 class="text-success">Our Specialties</h2>
-                </div>
-              </div>
-              <div class="col-md-12 mb-md-5 mb-0 col-lg-6">
-                <div class="unit-4">
-                  <div class="unit-4-icon mr-4 mb-3"><span class="text-secondary icon-phonelink"></span></div>
-                  <div>
-                    <h3>Web &amp; Mobile Specialties</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis consect.</p>
-                    <p class="mb-0"><a href="#">Learn More</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-md-5 mb-0 col-lg-6">
-                <div class="unit-4">
-                  <div class="unit-4-icon mr-4 mb-3"><span class="text-secondary icon-extension"></span></div>
-                  <div>
-                    <h3>Intuitive Thinkers</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis.</p>
-                    <p class="mb-0"><a href="#">Learn More</a></p>
-                  </div>
+                  <h2 class="text-success">Notre concept</h2>
+                  <p> C'est une application mobile et desktop conçue pour offrir, tout au long de la journée de façon régulière et personnalisée, des micro-pauses. Notre programme permet à l’utilisateur de choisir au préalable selon ses préférences et ses envies des thématiques et des exercices ciblés.</p> 
+                
+                  <p>Notre programme permet à l’utilisateur de s’évader, de trouver le sourire grace à un instant de joie et de divertissement. Pause’Reset est un programme auto-apprenant, par conséquent le contenu est personnalisé afin qu’il puisse parfaitement correspondre aux envies de son utilisateur. </p>
+                  
+                  <p> Grâce à notre programme et notre contenu ; des vidéos, actualités, musiques, exercices, conseils coaching, etc. Nous promettons à l’utilisateur de libérer son esprit et de devenir meilleur. </p>
                 </div>
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </div>
   
+    <section class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="p-3 box-with-humber">
+              <div class="number-behind">01.</div>
+              <h2>Nos valeurs</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="p-3 box-with-humber">
+              <div class="number-behind">02.</div>
+              <h2>Notre mission</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="p-3 box-with-humber">
+              <div class="number-behind">03.</div>
+              <h2>Notre philosophie</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     
     <div class="site-section border-bottom">
       <div class="container">
@@ -112,12 +125,6 @@
               <h3>Eva Pourcel</h3>
               <p class="position text-muted">Co-Founder, President</p>
               <p class="mb-4">"Notre temps est précieux, gardons le pour les applications qui nous épanouissent."</p>
-              <ul class="ul-social-circle">
-                <li><a href="#"><span class="icon-facebook"></span></a></li>
-                <li><a href="#"><span class="icon-twitter"></span></a></li>
-                <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                <li><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
@@ -126,12 +133,6 @@
               <h3>Rayan Ducastelle</h3>
               <p class="position text-muted">Co-Founder, COO</p>
               <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
-              <ul class="ul-social-circle">
-                <li><a href="#"><span class="icon-facebook"></span></a></li>
-                <li><a href="#"><span class="icon-twitter"></span></a></li>
-                <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                <li><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="300">
@@ -140,12 +141,6 @@
               <h3>Caroline Faget</h3>
               <p class="position text-muted">Marketing</p>
               <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
-              <ul class="ul-social-circle">
-                <li><a href="#"><span class="icon-facebook"></span></a></li>
-                <li><a href="#"><span class="icon-twitter"></span></a></li>
-                <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                <li><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
             </div>
           </div>
         </div>
@@ -158,7 +153,7 @@
     <a href="#" class="bg-success py-5 d-block">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md10"><h2 class="text-white">Hire Us &amp; Let's Get Started</h2></div>
+          <div class="col-md10"><h2 class="text-white">Positivité &amp; Bien-être les mots clés pour continuer votre journée </h2></div>
         </div>
       </div>  
     </a>

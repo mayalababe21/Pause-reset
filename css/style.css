@@ -1377,7 +1377,10 @@ h1, h2, h3, h4, h5,
   color: white; }
 
 .person h3 {
-  font-size: 18px; }
+  font-size: 18px;
+  color: rgb(175,139,27);  } /*EVA*/
+
+
 
 .ul-social-circle {
   list-style: none;
@@ -1613,7 +1616,13 @@ h1, h2, h3, h4, h5,
     color: #737373; }
 
 .box-with-humber {
-  position: relative; }
+  position: relative; 
+  
+}
+.box-with-humber h2 {
+  color: rgba(139,195,74,0.9); /*Eva*/
+  
+}
   .box-with-humber .number-behind {
     font-size: 8rem;
     position: absolute;
@@ -1621,7 +1630,8 @@ h1, h2, h3, h4, h5,
     top: -4rem;
     left: -3rem;
     font-weight: 900;
-    color: #f2f4f5; }
+    color: rgba(175,139,27,0.5); }
+
 
 .media-1 {
   position: relative;
@@ -1700,3 +1710,8 @@ h1, h2, h3, h4, h5,
 
 .testimonial-wrap .owl-nav {
   display: none; }
+
+#quizz-entree-secrete{
+  font-family: verdana;
+  font-size: 12px;
+}

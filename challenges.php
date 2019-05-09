@@ -52,196 +52,112 @@
       </div>
     </div>  
 
-
+    <section>   
+      <div class="container"> 
+        <div class="row">
+          <div class="col-12 mb-4">
+              <div class="text-left pb-1 border-success mb-4">
+                 <h1 class="text-success">Nos challenges, vos cadeaux !</h1>
+                    <p>Vous pouvez retrouver ici tous nos challenges qui seront éveillés votre instinct d'enquêteurs, en passant par des quizz ou tout autre challenge.</p>
+              </div>
+           </div> 
+        </div>
+      </div>
+    </section>
     
     <section class="site-section">
       
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-4 mb-4">
-            <a href="#" class="media-1">
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+            <a href="challenge_20190601.php" class="media-1">
+              <img src="images/img_1.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Project Name 1</h2>
-                <span class="category">Web Application</span>
+                <h2>Challenge 1</h2>
+                <span class="category">"La chasse à la pause ou la pause chasse"</span>
               </div>
             </a>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
-            <a href="#" class="media-1">
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
+            <a href="challenge_20190701.php" class="media-1">
+              <img src="images/images_2.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Project Name 2</h2>
+                <h2>Challenge 2</h2>
                 <span class="category">Branding</span>
               </div>
             </a>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
-            <a href="#" class="media-1">
-              <img src="images/img_3.jpg" alt="Image" class="img-fluid">
+            <a href="challenge_20190801.php" class="media-1">
+              <img src="images/img_1.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Project Name 3</h2>
+                <h2>Challenge 3</h2>
                 <span class="category">Website</span>
               </div>
             </a>
           </div>
 
           <div class="col-md-6 col-lg-4 mb-4">
-            <a href="#" class="media-1">
-              <img src="images/img_4.jpg" alt="Image" class="img-fluid">
+            <a href="challenge_20190901.php" class="media-1">
+              <img src="images/img_1.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Project Name 4</h2>
+                <h2>Challenge 4</h2>
                 <span class="category">Web Application</span>
               </div>
             </a>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
-            <a href="#" class="media-1">
-              <img src="images/img_5.jpg" alt="Image" class="img-fluid">
+            <a href="challenge_20191001.php" class="media-1">
+              <img src="images/img_1.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Project Name 5</h2>
+                <h2>Challenge 5</h2>
                 <span class="category">Branding</span>
               </div>
             </a>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
-            <a href="#" class="media-1">
-              <img src="images/img_6.jpg" alt="Image" class="img-fluid">
+            <a href="challenge_20191101.php" class="media-1">
+              <img src="images/img_1.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Project Name 6</h2>
+                <h2>Challenge 6</h2>
                 <span class="category">Website</span>
               </div>
             </a>
           </div>
 
           <div class="col-md-6 col-lg-4 mb-4">
-            <a href="#" class="media-1">
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+            <a href="challenge_20191201.php" class="media-1">
+              <img src="images/img_1.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Project Name 1</h2>
+                <h2>Challenge 7</h2>
                 <span class="category">Web Application</span>
               </div>
             </a>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
-            <a href="#" class="media-1">
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
+            <a href="challenge_20200101.php" class="media-1">
+              <img src="images/img_1.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Project Name 2</h2>
+                <h2>Challenge 8</h2>
                 <span class="category">Branding</span>
               </div>
             </a>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
-            <a href="#" class="media-1">
-              <img src="images/img_3.jpg" alt="Image" class="img-fluid">
+            <a href="challenge_20200201.php" class="media-1">
+              <img src="images/img_1.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Project Name 3</h2>
+                <h2>Challenge 9</h2>
                 <span class="category">Website</span>
               </div>
             </a>
           </div>
 
-          <div class="col-md-6 col-lg-4 mb-4">
-            <a href="#" class="media-1">
-              <img src="images/img_4.jpg" alt="Image" class="img-fluid">
-              <div class="media-1-content">
-                <h2>Project Name 4</h2>
-                <span class="category">Web Application</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4">
-            <a href="#" class="media-1">
-              <img src="images/img_5.jpg" alt="Image" class="img-fluid">
-              <div class="media-1-content">
-                <h2>Project Name 5</h2>
-                <span class="category">Branding</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4">
-            <a href="#" class="media-1">
-              <img src="images/img_6.jpg" alt="Image" class="img-fluid">
-              <div class="media-1-content">
-                <h2>Project Name 6</h2>
-                <span class="category">Website</span>
-              </div>
-            </a>
-          </div>
-
+         
         </div>
       </div>
     </section>
 
-
-    <section class="site-section testimonial-wrap">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8 text-center">
-            <h2 class="text-black h1 site-section-heading text-center">Testimonials</h2>
-          </div>
-        </div>
-      </div>
-      <div class="slide-one-item home-slider owl-carousel">
-          <div>
-            <div class="testimonial">
-              
-              <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-
-              <figure class="mb-4 d-flex align-items-center justify-content-center">
-                <div><img src="images/person_3.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>John Smith</p>
-              </figure>
-            </div>
-          </div>
-          <div>
-            <div class="testimonial">
-
-              <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <figure class="mb-4 d-flex align-items-center justify-content-center">
-                <div><img src="images/person_2.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Christine Aguilar</p>
-              </figure>
-              
-            </div>
-          </div>
-
-          <div>
-            <div class="testimonial">
-
-              <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <figure class="mb-4 d-flex align-items-center justify-content-center">
-                <div><img src="images/person_4.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Robert Spears</p>
-              </figure>
-
-              
-            </div>
-          </div>
-
-          <div>
-            <div class="testimonial">
-
-              <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <figure class="mb-4 d-flex align-items-center justify-content-center">
-                <div><img src="images/person_5.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Bruce Rogers</p>
-              </figure>
-
-            </div>
-          </div>
-
-        </div>
-    </section>
     <!-- FIN 3-corps -->
     
     <!-- 4-footer -->
