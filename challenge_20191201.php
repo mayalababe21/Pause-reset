@@ -34,7 +34,7 @@
     <!-- FIN 2-menu -->
   
     <!-- 3-corps -->
-     <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+     <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/jeu.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row align-items-center justify-content-center text-center">
 
@@ -55,7 +55,7 @@
     <section>
       <div class="container">
         <div class="row">
-            <h1>Le premier challenge</h1>
+            <h1>- Challenge de décembre 2019 -</h1>
         </div>
       </div>
     </section>

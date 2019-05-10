@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style-log.css">
-    <title>Pause'Rest - Je m'identifie ou Je crée Mon Compte</title>
+    <title>Pause'Reset - Je m'identifie ou Je crée Mon Compte</title>
 </head>
 <body style="width:100%; margin:10vh auto; background-color:rgba(0,0,0,0.50); position: absolute; z-index: 10;">
     <div id="logreg-forms">

@@ -34,7 +34,7 @@
     <!-- FIN 2-menu -->
   
     <!-- 3-corps -->
-    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/jeu.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row align-items-center justify-content-center text-center">
 
@@ -73,7 +73,7 @@
             <a href="challenge_20190601.php" class="media-1">
               <img src="images/img_1.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Challenge 1</h2>
+                <h2>Challenge 1 - Juin 2019</h2>
                 <span class="category">"La chasse à la pause ou la pause chasse"</span>
               </div>
             </a>
@@ -82,7 +82,7 @@
             <a href="challenge_20190701.php" class="media-1">
               <img src="images/images_2.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Challenge 2</h2>
+                <h2>Challenge 2 - Juillet 2019</h2>
                 <span class="category">Branding</span>
               </div>
             </a>
@@ -91,7 +91,7 @@
             <a href="challenge_20190801.php" class="media-1">
               <img src="images/img_1.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Challenge 3</h2>
+                <h2>Challenge 3 - Aout 2019</h2>
                 <span class="category">Website</span>
               </div>
             </a>
@@ -101,7 +101,7 @@
             <a href="challenge_20190901.php" class="media-1">
               <img src="images/img_1.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Challenge 4</h2>
+                <h2>Challenge 4 - Septembre 2019</h2>
                 <span class="category">Web Application</span>
               </div>
             </a>
@@ -110,7 +110,7 @@
             <a href="challenge_20191001.php" class="media-1">
               <img src="images/img_1.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Challenge 5</h2>
+                <h2>Challenge 5 - Octobre 2019</h2>
                 <span class="category">Branding</span>
               </div>
             </a>
@@ -119,7 +119,7 @@
             <a href="challenge_20191101.php" class="media-1">
               <img src="images/img_1.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Challenge 6</h2>
+                <h2>Challenge 6 - Novembre 2019</h2>
                 <span class="category">Website</span>
               </div>
             </a>
@@ -129,7 +129,7 @@
             <a href="challenge_20191201.php" class="media-1">
               <img src="images/img_1.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Challenge 7</h2>
+                <h2>Challenge 7 - Décembre 2019</h2>
                 <span class="category">Web Application</span>
               </div>
             </a>
@@ -138,7 +138,7 @@
             <a href="challenge_20200101.php" class="media-1">
               <img src="images/img_1.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Challenge 8</h2>
+                <h2>Challenge 8 - Janvier 2020</h2>
                 <span class="category">Branding</span>
               </div>
             </a>
@@ -147,7 +147,7 @@
             <a href="challenge_20200201.php" class="media-1">
               <img src="images/img_1.png" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Challenge 9</h2>
+                <h2>Challenge 9 - Février 2020</h2>
                 <span class="category">Website</span>
               </div>
             </a>
