@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style-log.css">
     <title>Pause'Reset - Je m'identifie ou Je crée Mon Compte</title>
 </head>
-<body style="width:100%; margin:10vh auto; background-color:rgba(0,0,0,0.50); position: absolute; z-index: 10;">
+<body>
     <div id="logreg-forms">
         <form class="form-signin">
             <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"> Je m'identifie</h1>
