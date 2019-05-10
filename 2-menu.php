@@ -10,13 +10,27 @@
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
             <?php $page = $_SERVER['PHP_SELF']; ?>
-              <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li<?php if(strpos($page,'faq.php')) echo ' class="active"'; ?>><a href="faq.php">FAQ</a></li>
-                <li<?php if(strpos($page,'contact.php')) echo ' class="active"'; ?>><a href="contact.php">Contact</a></li>
-                <li<?php if(strpos($page,'je-m-abonne.php')) echo ' class="active"'; ?>><a href="je-m-abonne.php">JE M'ABONNE !</a></li>
-                <li class="has-children <?php if(strpos($page,'mon-profil.php') || strpos($page,'mon-abo.php') || strpos($page,'mes-challenges.php') || strpos($page,'index.php')) echo ' active'; ?>"><a href="mon-compte-ident-crea.php">Mon Compte</a>               
-                <!--<li class="has-children">
-                  <a href="compte.php">Mon Compte</a>-->
+              <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block text-uppercase small">
+                <li<?php if(strpos($page,'faq.php')) echo ' class="active"'; ?>>
+                    <a href="faq.php">FAQ</a>
+                </li>
+                <li<?php if(strpos($page,'contact.php')) echo ' class="active"'; ?>>
+                    <a href="contact.php">Contact</a>
+                </li>
+                <li<?php if(strpos($page,'je-m-abonne.php')) echo ' class="active"'; ?>>
+                    <a href="je-m-abonne.php">JE M'ABONNE !</a>
+                </li>
+
+                <?php if(empty($_SESSION['user'])):?>
+                  <!-- Ici mon utilisateur n'est pas connecté -->
+                  <li<?php if(strpos($page,'mon-compte-ident-crea.php')) echo ' class="active"'; ?>>
+                      <a href="mon-compte-ident-crea.php">Connexion</a>
+                  </li>
+                <?php else: ?>
+
+                  <!-- Ici mon utilisateur EST connecté -->
+                <li class="has-children <?php if(strpos($page,'mon-profil.php') || strpos($page,'mon-abo.php') || strpos($page,'mes-challenges.php') || strpos($page,'index.php')) echo ' active'; ?>">
+                      <a href="#">Mon Compte</a>               
                   <ul class="dropdown">
                     <li><a href="mon-profil.php">Mon Profil</a></li>
                     <li><a href="mon-abo.php">Mon Abo</a></li>
@@ -26,13 +40,22 @@
                   </ul>
                 </li>
 
+                <?php endif;?>
+
                 <div class="dropdown-divider"></div>
 
-                <li<?php if(strpos($page,'index.php')) echo ' class="active"'; ?>><a href="index.php">Accueil</a></li>
-                <!--<li class="active"><a href="index.php">Home</a></li>-->
-                <li<?php if(strpos($page,'challenges.php')) echo ' class="active"'; ?>><a href="challenges.php">Challenges !!!</a></li>
-                <li<?php if(strpos($page,'concept.php')) echo ' class="active"'; ?>><a href="concept.php">Le Concept</a></li>
-                <li<?php if(strpos($page,'blog.php')) echo ' class="active"'; ?>><a href="blog.php">Blog</a></li>
+                <li class="<?php if(strpos($page,'index.php')) echo ' active'; ?>">
+                  <a href="index.php">Accueil</a>
+                </li>
+                <li class="font-weight-bold <?php if(strpos($page,'challenges.php')) echo ' active'; ?>">
+                  <a href="challenges.php" class="">Challenges</a>
+                </li>
+                <li class="<?php if(strpos($page,'concept.php')) echo ' active'; ?>">
+                  <a href="concept.php">Le Concept</a
+                    ></li>
+                <li class="<?php if(strpos($page,'blog.php')) echo ' active'; ?>">
+                  <a href="blog.php">Blog</a>
+                </li>
               </ul>
             </nav>
           </div>
