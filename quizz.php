@@ -53,66 +53,80 @@
 
 <section id="quizz-entree-secrete">
 	<h1> Bravo, tu viens de découvrir l'entrée secrète de la chasse.</h1>
-	<p> Réponds correctement à ce quizz, attention tu n'auras qu'une seule chance ! Toutes les réponses sont à l'intérieur du site, à toi de trouver les indices cachés ! </p>
+	<p class="lead mb-5"> Réponds correctement à ce quizz, attention tu n'auras qu'une seule chance ! Toutes les réponses sont à l'intérieur du site, à toi de trouver les indices cachés ! </p>
 
 
-	<div class="form-group">
-	    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Inséres ton adresse mail">
+<form>
+
+<div class="container">
+<div class="row">
+    <div class="input-group col-sm-4 mb-3">
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-descridedby="emailHelp" placeholder="Inséres ton email">
+</div>    
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="input-group mb-3">
+			<input class="form-control" type="text" placeholder="Quels sont les trois mots clés de notre concept ? " readonly>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="input-group mb-3">
+			<input class="form-control" type="text" placeholder="Quels sont les trois mots clés de notre concept ? " readonly>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="input-group mb-3">
+			<input class="form-control" type="text" placeholder="Quels sont les trois mots clés de notre concept ? " readonly>
+		</div>
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="row">
+		<div class="input-group mb-3">
+			<input class="form-control" type="text" placeholder="Quels sont les trois mots clés de notre concept ? " readonly>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="input-group mb-3">
+			<input class="form-control" type="text" placeholder="Quels sont les trois mots clés de notre concept ? " readonly>
+		</div>
+	</div>
+</div>
+
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        J'accepte de recevoir des Newletters pour m'informer des évènements à venir, challenges...
+      </label>
     </div>
-    
-
-<div class="container">
-	<div class="row">
-		<div class="input-group mb-3">
-			<input class="form-control" type="text" placeholder="Quels sont les trois mots clés de notre concept ? " readonly>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="input-group mb-3">
-			<input class="form-control" type="text" placeholder="Quels sont les trois mots clés de notre concept ? " readonly>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="input-group mb-3">
-			<input class="form-control" type="text" placeholder="Quels sont les trois mots clés de notre concept ? " readonly>
-		</div>
-	</div>
-</div>
-
-
-<div class="container">
-	<div class="row">
-		<div class="input-group mb-3">
-			<input class="form-control" type="text" placeholder="Quels sont les trois mots clés de notre concept ? " readonly>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="input-group mb-3">
-			<input class="form-control" type="text" placeholder="Quels sont les trois mots clés de notre concept ? " readonly>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-<button type="button" class="btn btn-secondary btn-block">J'envoie mon questionnaire</button>
-	</div>
-</div>
+  </div>
+    <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        J'accepte les conditions génèrales des challenges et de la politique de confidentilité
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary" >Envoyer</button>
+</form>
 
 <br></br>
 </section>
-
-
-
 </body>
 
 
