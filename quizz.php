@@ -1,3 +1,11 @@
+<?php 
+
+// obligatoire pour utiliser les sessions
+session_start();
+// Obligatoire pour se connecter avec la base données (phpmyadmin)
+require 'conf/config-sql.php';
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
