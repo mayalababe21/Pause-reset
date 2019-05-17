@@ -1,5 +1,16 @@
 <?php 
 
+// ajout rayan début 
+use PHPMailer\PHPMailer\PHPMailer; // il ne faut pas les toucher, compatible a phpmailer 
+use PHPMailer\PHPMailer\Exception; // Lien/chemin fictif
+// ajout rayan début 
+
+
+
+require 'PHPMailer/src/Exception.php'; 
+require 'PHPMailer/src/PHPMailer.php';
+require 'PHPMailer/src/SMTP.php';
+
 // obligatoire pour utiliser les sessions
 session_start();
 // Obligatoire pour se connecter avec la base données (phpmyadmin)
@@ -51,6 +62,49 @@ if(!empty($_POST)){
                 // Si on veut envoyer un mail de confirmation, c'est ici qu'on le fera.
                 // Néanmoins, cela nécessite de rajouter une colonne ("is_active" par exemple) dans la base de données (0-1)
                 // Si l'utilisateur clique sur son lien, l'emmenant sur une page spécifique, alors on update le compte en passant la nouvelle colonne a 1.
+
+            // Récupération des variables nécessaires au mail de confirmation  
+             
+            // ajout rayan début  
+
+            $mail = $_POST['input_email']; 
+
+        
+
+            $mail = new PHPMailer(true);
+        //Server settings
+        $mail->SMTPDebug = 0;                                 // Enable verbose debug output
+        $mail ->CharSet = 'UTF-8';                            // Pour prendre en compte les accents
+        $mail->isSMTP();                                      // Set mailer to use SMTP
+        $mail->Host = 'smtp.mailtrap.io';  // Specify main and backup SMTP servers
+        $mail->SMTPAuth = true;                               // Enable SMTP authentication
+        $mail->Username = '5c06005dde8434';                   // SMTP username
+        $mail->Password = '8beb459b799cd4';                   // SMTP password
+        $mail->SMTPSecure =     'tls';                        // Enable TLS encryption, `ssl` also accepted
+        $mail->Port = 2525;                                     // TCP port to connect to
+
+        //Recipients
+        $mail->setFrom($post['input_email'], $post['input_fullname']);         // L'expéditeur
+        $mail->addAddress('ellen@example.com');               // Le destinataire 
+        
+         //Content
+        $mail->isHTML(true);                                  // Set email format to HTML
+        $mail->Subject = 'Bienvenue sur Pause\'Reset'.$post['input_fullname'];
+      
+        $message = '<p>Hey!,';
+        $message.= '<br> Pour activer votre compte, veuillez cliquer sur le lien ci dessous
+            ou copier/coller dans votre navigateur internet : LE LIEN DE NOTRE SITE </p>';
+        $message.= '<hr>';
+        $message.= '<hr>';                      // Pas mettres d'espace entre le . et = 
+        $message.= '<p><em>Ceci est un mail automatique, Merci de ne pas y répondre.</em></p>'; // $message.= pour l'indentation 
+
+
+        
+
+        $mail->msgHTML($message);
+        $mail->send();
+
+        // ajout rayan fin
 
             }
         }
