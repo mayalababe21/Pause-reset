@@ -64,14 +64,7 @@ require 'conf/config-sql.php';
 	<p class="lead mb-5"> Réponds correctement à ce quizz, attention tu n'auras qu'une seule chance ! Toutes les réponses sont à l'intérieur du site, à toi de trouver les indices cachés ! </p>
 
 
-<form>
-
-<div class="container">
-<div class="row">
-    <div class="input-group col-sm-4 mb-3">
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-descridedby="emailHelp" placeholder="Inséres ton email">
-</div>    
-</div>
+<form method="post">
 
 <div class="container">
 	<div class="row">

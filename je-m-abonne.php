@@ -42,7 +42,7 @@ require 'conf/config-sql.php';
     <!-- FIN 2-menu -->
   
     <!-- 3-corps -->
-    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/jemabonne-couverture.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row align-items-center justify-content-center text-center">
 
@@ -51,10 +51,9 @@ require 'conf/config-sql.php';
             <div class="row justify-content-center mb-4">
               <div class="col-md-8 text-center">
                 <h1>JE M'ABONNE !</h1>
-                <p class="lead mb-5">Je reste connecté avec Pause'Reset (apllis Mobile et Desktop)</p>
+                <p class="lead mb-5">Je reste connecté avec Pause'Reset (applis Mobile et Desktop)</p>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -65,180 +64,45 @@ require 'conf/config-sql.php';
         <div class="row align-items-stretch">
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
             <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-success icon-laptop2"></span></div>
+              <div class="unit-4-icon mr-4"><span class="text-success"></span>
+              <img src="images/jemabonne_upload.png" alt="Image" class="img-fluid"></div>
               <div>
-                <h3>Web Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
+                <h3>Pause'Reset - IOS</h3>
+                <p>Retrouvez notre application sous IOS dans l'Apple Store.</p>
+                <p><a href="#">Télécharger</a></p>
+                
               </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-success icon-shopping_cart"></span></div>
+              <div class="unit-4-icon mr-4"><span class="text-success"></span>
+                <img src="images/jemabonne_upload.png" alt="Image" class="img-fluid"></div>
               <div>
-                <h3>eCommerce</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
+                <h3>Pause'Reset - Android</h3>
+                <p>Retrouvez notre application sous Android dans le Play Store.</p>
+                <p><a href="#">Télécharger</a></p>
+                <div><img src="images/jemabonne_googleplay.png" alt="Image" class="img-fluid"></div>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-success icon-question_answer"></span></div>
+              <div class="unit-4-icon mr-4"><span class="text-success"></span>
+                <img src="images/jemabonne_upload.png" alt="Image" class="img-fluid"></div>
               <div>
-                <h3>Web Applications</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
+                <h3>Pause'Reset - Bureau (Mac et Windows)</h3>
+                <p>Retrouvez le lien direct pour télécharger notre application de bureau.</p>
+                <p><a href="#">Télécharger</a></p>
               </div>
-            </div>
-          </div>
-
-
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-success icon-format_paint"></span></div>
-              <div>
-                <h3>Branding</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="400">
-            <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-success icon-extension"></span></div>
-              <div>
-                <h3>Copy Writing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="500">
-            <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-success icon-phonelink"></span></div>
-              <div>
-                <h3>Mobile Applications</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-    
-
-    <section class="site-section border-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up">
-            <div class="p-3 box-with-humber">
-              <div class="number-behind">01.</div>
-              <h2>Web Design</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="p-3 box-with-humber">
-              <div class="number-behind">02.</div>
-              <h2>Web Apps</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="p-3 box-with-humber">
-              <div class="number-behind">03.</div>
-              <h2>WordPress</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="p-3 box-with-humber">
-              <div class="number-behind">04.</div>
-              <h2>Web Design</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="400">
-            <div class="p-3 box-with-humber">
-              <div class="number-behind">05.</div>
-              <h2>Web Apps</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="500">
-            <div class="p-3 box-with-humber">
-              <div class="number-behind">06.</div>
-              <h2>WordPress</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
-    <section class="site-section testimonial-wrap" data-aos="fade">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8 text-center">
-            <h2 class="text-black h1 site-section-heading text-center">Testimonials</h2>
-          </div>
-        </div>
-      </div>
-      <div class="slide-one-item home-slider owl-carousel">
-          <div>
-            <div class="testimonial">
-              
-              <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-
-              <figure class="mb-4 d-flex align-items-center justify-content-center">
-                <div><img src="images/person_3.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>John Smith</p>
-              </figure>
-            </div>
-          </div>
-          <div>
-            <div class="testimonial">
-
-              <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <figure class="mb-4 d-flex align-items-center justify-content-center">
-                <div><img src="images/person_2.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Christine Aguilar</p>
-              </figure>
-              
-            </div>
-          </div>
-
-          <div>
-            <div class="testimonial">
-
-              <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <figure class="mb-4 d-flex align-items-center justify-content-center">
-                <div><img src="images/person_4.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Robert Spears</p>
-              </figure>
-
-              
-            </div>
-          </div>
-
-        </div>
-    </section>
+     </section>
+      
     <!-- FIN 3-corps -->
+
     
     <!-- 4-footer -->
     <?php include("4-footer.php"); ?>
