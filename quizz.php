@@ -4,6 +4,56 @@
 session_start();
 // Obligatoire pour se connecter avec la base données (phpmyadmin)
 require 'conf/config-sql.php';
+//$requser = $bdd->prepare("SELECT * FROM quiz WHERE id, fullname, reply, score = ?");
+
+ $points = 0;
+if(!empty($_POST)){
+ //initialisation de toutes les variables dont ont devras se servir. 
+ $question1=$_POST["question1"]; 
+ $question2=$_POST["question2"]; 
+ $question3=$_POST["question3"]; 
+ $question4=$_POST["question4"];
+ $question5=$_POST["question5"]; 
+  
+  $answer1 = 'toto';
+  $answer2 = 'titi'; 
+  $answer3 = 'tata';
+  $answer4 = 'tyty';
+  $answer5 = 'tete';
+ if ($question1 == $answer1 ) 
+ {  $points ++;} 
+ //question 2 
+ if ($question2 == $answer2 ) 
+ {  $points ++;} 
+ //question 3 
+ if ($question3 == $answer3 ) 
+ {  $points ++;} 
+ //question 4 
+ if ($question4 == $answer4 ) 
+ {  $points ++;} 
+ //question 5 
+ if ($question5 == $answer5 ) 
+ {  $points ++;} 
+
+  header('Location: quizz.php?total='.$points);
+
+}
+
+if(isset($_GET['total'])){
+
+// Préparation de la requete SQL
+    $res = $bdd->prepare('INSERT INTO reply (score) VALUES(:points,');
+    // Affectation de valeurs aux parametres...
+    // PDO::PARAM-STR est une sécurité supplémentaire pour les chaines de caractères
+    // PDO::PARAM_INT est une sécurité supplémentaire pour les chiffres 
+    // Si je ne renseigne pas ce PDO::PARAM_* c'est forcément PDO::PARAM_STR qui sera appliqué 
+
+    $res->bindValue(':points',$_GET['total'],PDO::PARAM_INT);
+
+ 
+    // J'execute (donc ça sauvegarde)
+    $res->execute(); 
+}
 
 ?>
 <!DOCTYPE html>
@@ -51,13 +101,12 @@ require 'conf/config-sql.php';
               <div class="col-md-8 text-center">
                 <h1>L'entrée secrète de la chasse est ouverte ! </h1>
                 <p class="lead mb-5">Répondez correctement aux plusieurs questions, bonne chance.</p>
-              </div>
-            </div>
-
+              </div>            
           </div>
         </div>
       </div>
     </div>  
+  </div>
 
 <section id="quizz-entree-secrete">
 	<h1> Bravo, tu viens de découvrir l'entrée secrète de la chasse.</h1>
@@ -66,69 +115,180 @@ require 'conf/config-sql.php';
 
 <form method="post">
 
-<div class="container">
-	<div class="row">
-		<div class="input-group mb-3">
-			<input class="form-control" type="text" placeholder="Quels sont les trois mots clés de notre concept ? " readonly>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="input-group mb-3">
-			<input class="form-control" type="text" placeholder="Quels sont les trois mots clés de notre concept ? " readonly>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="input-group mb-3">
-			<input class="form-control" type="text" placeholder="Quels sont les trois mots clés de notre concept ? " readonly>
-		</div>
-	</div>
-</div>
+<!-- Bloque de la 1 questions sur le quizz--> 
 
 
 <div class="container">
 	<div class="row">
 		<div class="input-group mb-3">
-			<input class="form-control" type="text" placeholder="Quels sont les trois mots clés de notre concept ? " readonly>
+			<input class="form-control" type="text" placeholder=" Question 1 : Quels sont les trois mots clés de notre concept ? " readonly>
 		</div>
-	</div>
 </div>
-
-<div class="container">
-	<div class="row">
-		<div class="input-group mb-3">
-			<input class="form-control" type="text" placeholder="Quels sont les trois mots clés de notre concept ? " readonly>
-		</div>
-	</div>
-</div>
-
-  <div class="form-group">
+<!-- Proposition de la 1 reponse à la 1 question-->
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        J'accepte de recevoir des Newletters pour m'informer des évènements à venir, challenges...
+      <input class="form-check-input" type="radio" name="question1" id="Q1" value="tata">
+      <label class="form-check-label" for="exampleRadios1">
+        beta
       </label>
     </div>
-  </div>
-    <div class="form-group">
+<!-- Proposition de la 2 reponse à la 1 question-->
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        J'accepte les conditions génèrales des challenges et de la politique de confidentilité
+      <input class="form-check-input" type="radio" name="question1" id="Q1" value="toto">
+      <label class="form-check-label" for="exampleRadios2">
+        toto
+      </label>
+    </div> 
+<!-- Proposition de la 3 reponse à la 1 question-->
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="question1" id="Q1" value="titi">
+      <label class="form-check-label" for="exampleRadios3">
+        alpha
       </label>
     </div>
-  </div>
-  <button type="submit" class="btn btn-primary" >Envoyer</button>
+</div>
+
+<br>
+
+<!-- Bloque de la 2 questions sur le quizz--> 
+<div class="container">
+	<div class="row">
+		<div class="input-group mb-3">
+			<input class="form-control" type="text" placeholder=" Question 2 : Quels sont les trois mots clés de notre concept ? " readonly>
+		</div>
+	</div>
+<!-- Proposition de la 1 reponse à la 2 question-->
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="question2" id="Q2" value="beta" >
+      <label class="form-check-label" for="exampleRadios1">
+        beta
+      </label>
+    </div>
+<!-- Proposition de la 2 reponse à la 2 question-->
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="question2" id="Q2" value="alpha">
+      <label class="form-check-label" for="exampleRadios2">
+        alpha
+      </label>
+    </div> 
+<!-- Proposition de la 3 reponse à la 2 question-->
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="question2" id="Q2" value="titi">
+      <label class="form-check-label" for="exampleRadios1">
+        titi
+      </label>
+    </div>
+</div>
+
+<br>
+
+<!-- Bloque de la 3 questions sur le quizz--> 
+
+<div class="container">
+	<div class="row">
+		<div class="input-group mb-3">
+			<input class="form-control" type="text" placeholder=" Question 3 : Quels sont les trois mots clés de notre concept ? " readonly>
+		</div>
+	</div>
+  <!-- Proposition de la 1 reponse à la 3 question-->
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="question3" id="Q3" value="alpha">
+      <label class="form-check-label" for="exampleRadios1">
+        alpha
+      </label>
+    </div>
+<!-- Proposition de la 2 reponse à la 3 question-->
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="question3" id="Q3" value="tata">
+      <label class="form-check-label" for="exampleRadios2">
+        tata
+      </label>
+    </div> 
+<!-- Proposition de la 3 reponse à la 3 question-->
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="question3" id="Q3" value="micro">
+      <label class="form-check-label" for="exampleRadios1">
+        micro
+      </label>
+    </div>
+</div>
+
+<br>
+
+<!-- Bloque de la 4 questions sur le quizz--> 
+<div class="container">
+	<div class="row">
+		<div class="input-group mb-3">
+			<input class="form-control" type="text" placeholder=" Question 4 : Quels sont les trois mots clés de notre concept ? " readonly>
+		</div>
+	</div>
+  <!-- Proposition de la 1 reponse à la 4 question-->
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="question4" id="Q4" value="sigma">
+      <label class="form-check-label" for="exampleRadios1">
+        sigma
+      </label>
+    </div>
+<!-- Proposition de la 2 reponse à la 4 question-->
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="question4" id="Q4" value="omega">
+      <label class="form-check-label" for="exampleRadios2">
+        omega
+      </label>
+    </div> 
+<!-- Proposition de la 3 reponse à la 4 question-->
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="question4" id="Q4" value="tyty">
+      <label class="form-check-label" for="exampleRadios1">
+        tyty
+      </label>
+    </div>
+</div>
+
+<br>
+
+
+
+<!-- Bloque de la 5 questions sur le quizz--> 
+<div class="container">
+	<div class="row">
+		<div class="input-group mb-3">
+			<input class="form-control" type="text" placeholder=" Question 5 : Quels sont les trois mots clés de notre concept ? " readonly>
+		</div>
+	</div>
+    <!-- Proposition de la 1 reponse à la 5 question-->
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="question5" id="Q5" value="tete">
+      <label class="form-check-label" for="exampleRadios1">
+        tete
+      </label>
+    </div>
+<!-- Proposition de la 2 reponse à la 5 question-->
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="question5" id="Q5" value="gamma">
+      <label class="form-check-label" for="exampleRadios2">
+        gamma
+      </label>
+    </div> 
+<!-- Proposition de la 3 reponse à la 5 question-->
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="question5" id="Q5" value="ampla">
+      <label class="form-check-label" for="exampleRadios1">
+        ampla
+      </label>
+    </div>
+</div>
+
+<br>
+
+  <!-- Button trigger modal -->
+<button class="btn btn-primary"> Envoyer</a>
+
+
+</div>
 </form>
 
 <br></br>
 </section>
-</body>
 
 
     <!-- 4-footer -->
@@ -136,6 +296,7 @@ require 'conf/config-sql.php';
     <!-- FIN 4-footer -->
 
   </div>
+
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -148,8 +309,35 @@ require 'conf/config-sql.php';
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/bootstrap-datepicker.min.js"></script>
   <script src="js/aos.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
   <script src="js/main.js"></script>
+
+
+
+  <?php if(isset($_GET['total'])): ?>
+
+    <?php 
+
+    if($_GET['total'] < 5){
+      $modal_title = 'Oups';
+      $modal_message = 'Dommage';
+      $modal_type = 'error'; // error, success ou info uniquement
+    }
+    else {
+      $modal_title = 'Oups';
+      $modal_message = 'Youhou vuos avez '.$_GET['total'].' points';
+      $modal_type = 'success'; // error, success ou info uniquement
+    }
+
+
+    ?>
+    <script type="text/javascript">
+
+      swal('<?php echo $modal_title;?>', '<?php echo $modal_message;?>', '<?php echo $modal_type;?>');
+    </script>
+
+  <?php endif; ?>
     
   </body>
 </html>
