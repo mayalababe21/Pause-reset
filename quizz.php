@@ -325,8 +325,8 @@ if(isset($_GET['total'])){
       $modal_type = 'error'; // error, success ou info uniquement
     }
     else {
-      $modal_title = 'Oups';
-      $modal_message = 'Youhou vuos avez '.$_GET['total'].' points';
+      $modal_title = 'Bravo';
+      $modal_message = 'Youhou vous avez '.$_GET['total'].' points';
       $modal_type = 'success'; // error, success ou info uniquement
     }
 
