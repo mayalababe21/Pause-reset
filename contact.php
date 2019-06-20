@@ -138,7 +138,7 @@ if(!empty($_POST)){  // Empty veut dire "vide" // Est-ce que quelque chose à é
             <div class="row justify-content-center mb-4">
               <div class="col-md-8 text-center">
                 <h1>Contactez nous</h1>
-                <p class="lead mb-5">we makes beautiful</p>
+                <p class="lead mb-5">N'hésitez pas à nous contacter pour nous sousmettre vos idées et votre avis sur notre application et éventuellement les problèmes rencontrés.</p>
               </div>
             </div>
 
@@ -215,10 +215,10 @@ if(!empty($_POST)){  // Empty veut dire "vide" // Est-ce que quelque chose à é
             
             <div class="p-3 mb-3 bg-white">
               <p class="mb-0 font-weight-bold">Notre adresse</p>
-              <p class="mb-4">203 Fake St. Mountain View, San Francisco, California, USA</p>
+              <p class="mb-4">Site de l'Agropole, 47310 Estillac</p>
 
               <p class="mb-0 font-weight-bold">Téléphone</p>
-              <p class="mb-4"><a href="#">+1 232 3235 324</a></p>
+              <p class="mb-4"><a href="#">06 43 59 33 74</a></p>
 
               <p class="mb-0 font-weight-bold">Adresse Email</p>
               <p class="mb-0"><a href="#">contact@pausereset.com</a></p>
@@ -226,9 +226,9 @@ if(!empty($_POST)){  // Empty veut dire "vide" // Est-ce que quelque chose à é
             </div>
             
             <div class="p-4 mb-3 bg-white">
-              <h3 class="h5 text-black mb-3">More Info</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ad iure porro mollitia architecto hic consequuntur. Distinctio nisi perferendis dolore, ipsa consectetur? Fugiat quaerat eos qui, libero neque sed nulla.</p>
-              <p><a href="#" class="btn btn-success btn-md text-white">Lire plus</a></p>
+              <h3 class="h5 text-black mb-3">Besoin d'aide ?</h3>
+              <p>Si vous n'arrivez à une étape de téléchargement de notre application, ou si vous avez une question concernant notre projet vous pouvez vous diriger vers l'onglet F.A.Q qui peut vous aiguiller. Si vous ne trouvez pas de réponse et que votre problème persiste n'hésitez pas à nous contacter.</p>
+              <p><a href="faq.php" class="btn btn-success btn-md text-white">Aller sur l'onglet F.A.Q</a></p>
             </div>
 
           </div>

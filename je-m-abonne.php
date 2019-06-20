@@ -41,12 +41,23 @@ require 'conf/config-sql.php';
     <?php include("2-menu.php"); ?>
     <!-- FIN 2-menu -->
   
-    <!-- 3-corps -->
+    <!-- 3-corps -1 -->
+
+
+    <!-- 3-corps -2 --> 
+
+
+
+
     <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/jemabonne-couverture.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row align-items-center justify-content-center text-center">
 
           <div class="col-md-12" data-aos="fade-up" data-aos-delay="400">
+
+
+
+
                         
             <div class="row justify-content-center mb-4">
               <div class="col-md-8 text-center">
@@ -58,6 +69,33 @@ require 'conf/config-sql.php';
         </div>
       </div>
     </div>  
+
+
+
+                <div class="container">
+        <div class="row">
+          <h2>Comment télécharger notre application ?</h2>
+          <p>En réalité c'est très simple, celà dépend de ce que vous utiliser comme outils. (exemple : téléphone, ordinateur). 
+            <br>
+            Dans le cas ou c'est le télèphone deux options s'offre à vous selon votre mobile : </br>
+            <br>- <strong>Iphone</strong> = Télécharger l'application sur le store de votre télèphone qui pour votre cas est AppStore (icone bleu) et faites une recherche. </br>
+
+           <br> - <strong> Android</strong> = Télécharger l'application sur le store de votre téléphone qui pour votre cas est Google Play Store. Appuyez sur l'icone dans votre télèphone est rechercher notre application 'Pause Reset' dans la barre de recherche. </br></p>
+
+          <p>Dans le cas ou c'est pour un ordinateur, nous avons créée la version <strong>desktop </strong>qui sera parfaite pour vous, il suffit de trouver sur internet (Google ou Qwant par exemple) et de rechercher notre application. 
+          <br>Vous pouvez également retrouver l'application dans les Stores des ordinateurs (Mac et Windows). </br></p>
+
+
+          Pour vous simplifier la vie, vous pouvez trouver en dessous des liens directes vers notre application via les stores. <br>
+
+          <p><br>Bon télèchargement,<br><p>
+
+          <p>L'équipe Pause'Reset!<br></p>
+      
+             </div>
+           </div>
+
+           <HR size=4 align=center width="100%">
 
     <section class="site-section border-bottom">
       <div class="container">
