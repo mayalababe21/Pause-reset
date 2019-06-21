@@ -68,10 +68,11 @@ require 'conf/config-sql.php';
             <div class="row mb-5">
               <div class="col-md-6 col-lg-6 mb-4 mb-lg-4">
                 <div class="h-entry">
-                  <img src="images/img_6.jpg" alt="Image" class="img-fluid">
-                  <h2 class="font-size-regular"><a href="#">Warehousing Your Packages</a></h2>
-                  <div class="meta mb-4">Theresa Winston <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                  <img src="images/about_1.jpg" alt="Image" class="img-fluid">
+                  <h2 class="font-size-regular"><a href="blog_1.php">Grâce aux micro-pauses améliorer vos performances au travail. </a></h2>
+                  <div class="meta mb-4">Francis Blandeau <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <br>
+                    <a href="blog_1.php">Chef d'entreprise et influenceur.</a></div> 
+                  <p>Nos méthodes de travail actuelles peuvent être épuisantes. Sous la pression du temps, nous avons du mal à prendre des pauses.</p>
                 </div> 
               </div>
               <div class="col-md-6 col-lg-6 mb-4 mb-lg-4">
