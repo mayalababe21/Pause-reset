@@ -46,7 +46,7 @@ require 'conf/config-sql.php';
     <!-- FIN 2-menu -->
   
     <!-- 3-corps -->
-    <div class="site-blocks-cover overlay" style="background-image: url(images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+    <div class="site-blocks-cover overlay" style="background-image: url(images/personne-index.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row align-items-center justify-content-center text-center">
 
@@ -65,56 +65,62 @@ require 'conf/config-sql.php';
       </div>
     </div>  
 
-
+<!-- Présentation génèrale / Gros bloc --> 
     <section class="section ft-feature-1">
       <div class="container">
         <div class="row align-items-stretch">
-          <div class="col-12 bg-black w-100 ft-feature-1-content">
+          <div class="col-12 bg-dark w-100 ft-feature-1-content">
             <div class="row align-items-center">
               <div class="col-lg-5">
                 <div class="h-100">
                   <div class="mb-5 d-flex align-items-center">
-                    <div>
-                      <a href="https://vimeo.com/317571768" class="popup-vimeo d-block play"><span class="icon-play"></span></a>
-                    </div>
-                    <h2>Découvez notre application</h2>
-                    <p>Notre pause, notre application.</p>
+                      <div>
+                        <a href="https://vimeo.com/317571768" class="popup-vimeo d-block play"><span class="icon-play"></span></a>
+                      </div>
+                    <h2>Découvrez notre application</h2>
                   </div>
-                  <img src="images/about_1.jpg" alt="Image" class="img-feature img-fluid">
+                  <img src="images/happy-people-index.jpg" alt="Image" class="img-feature img-fluid">
                 </div>
               </div>
+<!-- Bloc --> 
               <div class="col-lg-3 ml-auto">
                 <div class="mb-5">
-                  <h3 class="d-flex align-items-center"><span class="icon icon-phonelink mr-2"></span><span>Notre application</span></h3>
+                  <h3 class="d-flex align-items-center text-warning"><span class="icon icon-phonelink mr-2"></span><span>Notre application</span></h3>
                   <p>Notre application est conçu pour aider les personnes actives à faire une pause dans leur quotidien.</p>
-                  <p><a href="#">En savoir plus</a></p>
                 </div>
-
-                <div>
-                  <h3 class="d-flex align-items-center"><span class="icon icon-extension mr-2"></span><span>Android &amp; IOS</span></h3>
-                  <p>Notre application est disponible sur les stores Android et IOS.</p>
-                  <p><a href="#">En savoir plus</a></p>
-                </div>
-
               </div>
-              <div class="col-lg-3">
+<!-- Bloc --> 
+                <div class="col-lg-3">
+                 <div class="mb-5">
+                  <h3 class="d-flex align-items-center text-warning"><span class="icon icon-extension mr-2"></span><span>Android &amp; IOS</span></h3>
+                  <p>Notre application est disponible sur les stores Android et IOS.</p>
+                </div>
+              </div>
+<!-- Bloc --> 
+              <div class="col-lg-3 ml-auto">
                 <div class="mb-5">
-                  <h3 class="d-flex align-items-center"><span class="icon icon-format_paint mr-2"></span><span>Sur mesure</span></h3>
+                  <h3 class="d-flex align-items-center text-warning"><span class="icon icon-format_paint mr-2"></span><span>Sur mesure</span></h3>
                   <p>Nous avons créé pour vous une application sur mesure qui vous permettra de suivre vos passions.</p>
-                  <p><a href="#">En savoir plus</a></p>
+                </div>
+              </div>
+<!-- Bloc --> 
+                <div class="col-lg-3">
+                   <div class="mb-5">
+                     <h3 class="d-flex align-items-center text-warning"><span class="icon icon-question_answer mr-2"></span><span>1 minute chrono !</span></h3>
+                         <p>L'ensemble du contenu (vidéos, photos, images, musiques) durent quelques minutes, pour que les pauses soient éfficaces.</p>
+                    </div> 
+                        <button type="button" class="btn btn-primary btn-lg btn-block btn btn-outline-success"><a href="concept.php">En savoir plus</a></button>
                 </div>
 
-                <div>
-                  <h3 class="d-flex align-items-center"><span class="icon icon-question_answer mr-2"></span><span>1 minute chrono !</span></h3>
-                  <p>L'ensemble du contenu (vidéos, photos, images, musiques) durent quelques minutes, pour que les pauses soient éfficaces.</p>
-                  <p><a href="#">En savoir plus</a></p>
-                </div>
+               </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+<!-- FIn de la présentation --> 
 
 
     <section class="site-section">
@@ -325,7 +331,7 @@ require 'conf/config-sql.php';
     <!-- FIN 5-scripts -->
             <script>
             var typed = new Typed('.typed-words', {
-            strings: ["Web Apps"," WordPress"," Mobile Apps"],
+            strings: ["Reboost","Evasion","Détente","Personnalisé"],
             typeSpeed: 80,
             backSpeed: 80,
             backDelay: 4000,

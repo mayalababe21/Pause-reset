@@ -89,6 +89,8 @@ require 'conf/config-sql.php';
         </div>
       </div>
     </div>
+
+      <HR size=4 align=center width="100%">
   
     <section class="site-section">
       <div class="container">
@@ -119,6 +121,8 @@ require 'conf/config-sql.php';
         </div>
       </div>
     </section>
+
+    <HR size=4 align=center width="100%">
     
     <div class="site-section border-bottom">
       <div class="container">

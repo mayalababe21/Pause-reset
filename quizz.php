@@ -109,9 +109,10 @@ if(isset($_GET['total'])){
   </div>
 
 <section id="quizz-entree-secrete">
-	<h1> Bravo, tu viens de découvrir l'entrée secrète de la chasse.</h1>
-	<p class="lead mb-5"> Réponds correctement à ce quizz, attention tu n'auras qu'une seule chance ! Toutes les réponses sont à l'intérieur du site, à toi de trouver les indices cachés ! </p>
-
+	<div class="container">
+  <h1> Bravo, tu viens de découvrir l'entrée secrète de la chasse.</h1>
+	<p class="lead mb-5 text-center"> Réponds correctement à ce quizz, attention tu n'auras qu'une seule chance ! <br> Toutes les réponses sont à l'intérieure du site, à toi de trouver les indices cachés ! </p>
+  </div>
 
 <form method="post">
 
@@ -281,8 +282,9 @@ if(isset($_GET['total'])){
 <br>
 
   <!-- Button trigger modal -->
-<button class="btn btn-primary"> Envoyer</a>
-
+  <div class='container'>
+<button class="btn btn-success btn-md text-white"> Envoyer</a>
+  </div>
 
 </div>
 </form>
