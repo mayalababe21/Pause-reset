@@ -130,7 +130,7 @@ require 'conf/config-sql.php';
             <div class="p-3 box-with-humber">
               <div class="number-behind">01.</div>
               <h2>Nos valeurs</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+              <p> ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis</p>
             </div>
           </div>
 
@@ -152,6 +152,8 @@ require 'conf/config-sql.php';
         </div>
       </div>
     </section>
+
+    <HR size=4 align=center width="100%">
 
     <section class="site-section">
       <div class="container">

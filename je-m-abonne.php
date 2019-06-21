@@ -70,32 +70,41 @@ require 'conf/config-sql.php';
       </div>
     </div>  
 
-
-
-                <div class="container">
-        <div class="row">
+ <section class="site-section border-bottom">
+      <div class="container">
+        <div class="row align-items-stretch">
+          <div class="col-md-6" data-aos="fade-up">
           <h2>Comment télécharger notre application ?</h2>
-          <p>En réalité c'est très simple, celà dépend de ce que vous utiliser comme outils. (exemple : téléphone, ordinateur). 
+          <p text="justify-content-center">En réalité c'est très simple, celà dépend de ce que vous utiliser comme outils. (exemple : téléphone, ordinateur). 
             <br>
             Dans le cas ou c'est le télèphone deux options s'offre à vous selon votre mobile : </br>
             <br>- <strong>Iphone</strong> = Télécharger l'application sur le store de votre télèphone qui pour votre cas est AppStore (icone bleu) et faites une recherche. </br>
 
            <br> - <strong> Android</strong> = Télécharger l'application sur le store de votre téléphone qui pour votre cas est Google Play Store. Appuyez sur l'icone dans votre télèphone est rechercher notre application 'Pause Reset' dans la barre de recherche. </br></p>
 
-          <p>Dans le cas ou c'est pour un ordinateur, nous avons créée la version <strong>desktop </strong>qui sera parfaite pour vous, il suffit de trouver sur internet (Google ou Qwant par exemple) et de rechercher notre application. 
+          <p text="justify-content-center">Dans le cas ou c'est pour un ordinateur, nous avons créée la version <strong>desktop </strong>qui sera parfaite pour vous, il suffit de trouver sur internet (Google ou Qwant par exemple) et de rechercher notre application. 
           <br>Vous pouvez également retrouver l'application dans les Stores des ordinateurs (Mac et Windows). </br></p>
 
 
           Pour vous simplifier la vie, vous pouvez trouver en dessous des liens directes vers notre application via les stores. <br>
 
-          <p><br>Bon télèchargement,<br><p>
+          <p><br>Bon télèchargement,<br></p>
 
           <p>L'équipe Pause'Reset!<br></p>
       
              </div>
-           </div>
+        
 
-           <HR size=4 align=center width="100%">
+         <div class="col-md-4" data-aos="fade-up">
+          <br>
+          <img src ="images/ordinateur-mabonne.jpg" alt="image ordinateur" class="img-center" width="500"><br>
+         </div>
+         </div>
+       </div>
+       </section>
+
+<HR size=4 align=center width="100%">
+           
 
     <section class="site-section border-bottom">
       <div class="container">
@@ -131,7 +140,8 @@ require 'conf/config-sql.php';
               <div>
                 <h3>Pause'Reset - Bureau (Mac et Windows)</h3>
                 <p>Retrouvez le lien direct pour télécharger notre application de bureau.</p>
-                <p><a href="#">Télécharger</a></p>
+                <p><a href="#">Télécharger version Mac</a></p>
+                <p><a href="#">Télécharger version Windows</a></p>
               </div>
             </div>
           </div>
