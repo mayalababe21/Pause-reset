@@ -15,11 +15,11 @@ if(!empty($_POST)){
  $question4=$_POST["question4"];
  $question5=$_POST["question5"]; 
   
-  $answer1 = 'toto';
-  $answer2 = 'titi'; 
-  $answer3 = 'tata';
-  $answer4 = 'tyty';
-  $answer5 = 'tete';
+  $answer1 = 'Pause Reset';
+  $answer2 = 'Reboostant, Personnalisé'; 
+  $answer3 = 'Caroline, Rayan, Eva';
+  $answer4 = 'Les deux';
+  $answer5 = 'Au travail';
  if ($question1 == $answer1 ) 
  {  $points ++;} 
  //question 2 
@@ -121,29 +121,28 @@ if(isset($_GET['total'])){
 
 <div class="container">
 	<div class="row">
-		<div class="input-group mb-3">
-			<input class="form-control" type="text" placeholder=" Question 1 : Quels sont les trois mots clés de notre concept ? " readonly>
+		<div class="input-group mb-3">"Au travailntrol" type="text" placeholder=" Question 1 : Quel est le nom de notre marque ? " readonly>
 		</div>
 </div>
 <!-- Proposition de la 1 reponse à la 1 question-->
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="question1" id="Q1" value="tata">
+      <input class="form-check-input" type="radio" name="question1" id="Q1" value="Good Vibes">
       <label class="form-check-label" for="exampleRadios1">
-        beta
+        Good Vibes
       </label>
     </div>
 <!-- Proposition de la 2 reponse à la 1 question-->
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="question1" id="Q1" value="toto">
+      <input class="form-check-input" type="radio" name="question1" id="Q1" value="Pause Reset">
       <label class="form-check-label" for="exampleRadios2">
-        toto
+        Pause Reset
       </label>
     </div> 
 <!-- Proposition de la 3 reponse à la 1 question-->
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="question1" id="Q1" value="titi">
+      <input class="form-check-input" type="radio" name="question1" id="Q1" value="Good Reset">
       <label class="form-check-label" for="exampleRadios3">
-        alpha
+        Good Reset
       </label>
     </div>
 </div>
@@ -154,28 +153,28 @@ if(isset($_GET['total'])){
 <div class="container">
 	<div class="row">
 		<div class="input-group mb-3">
-			<input class="form-control" type="text" placeholder=" Question 2 : Quels sont les trois mots clés de notre concept ? " readonly>
+			<input class="form-control" type="text" placeholder=" Question 2 : Quels sont les deux mots clés de notre concept ? " readonly>
 		</div>
 	</div>
 <!-- Proposition de la 1 reponse à la 2 question-->
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="question2" id="Q2" value="beta" >
+      <input class="form-check-input" type="radio" name="question2" id="Q2" value="Energisant, Motivant" >
       <label class="form-check-label" for="exampleRadios1">
-        beta
+        Energisant, Motivant 
       </label>
     </div>
 <!-- Proposition de la 2 reponse à la 2 question-->
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="question2" id="Q2" value="alpha">
+      <input class="form-check-input" type="radio" name="question2" id="Q2" value="Relaxant, Massage">
       <label class="form-check-label" for="exampleRadios2">
-        alpha
+        Relaxant, Massage
       </label>
     </div> 
 <!-- Proposition de la 3 reponse à la 2 question-->
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="question2" id="Q2" value="titi">
+      <input class="form-check-input" type="radio" name="question2" id="Q2" value="Reboostant, Personnalisé">
       <label class="form-check-label" for="exampleRadios1">
-        titi
+        Reboostant, Personnalisé
       </label>
     </div>
 </div>
@@ -187,28 +186,28 @@ if(isset($_GET['total'])){
 <div class="container">
 	<div class="row">
 		<div class="input-group mb-3">
-			<input class="form-control" type="text" placeholder=" Question 3 : Quels sont les trois mots clés de notre concept ? " readonly>
+			<input class="form-control" type="text" placeholder=" Question 3 : Comment s'appelle les membres de la team ?" readonly>
 		</div>
 	</div>
   <!-- Proposition de la 1 reponse à la 3 question-->
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="question3" id="Q3" value="alpha">
+      <input class="form-check-input" type="radio" name="question3" id="Q3" value="Sylvie, Marc, Elodie">
       <label class="form-check-label" for="exampleRadios1">
-        alpha
+        Sylvie, Marc, Elodie
       </label>
     </div>
 <!-- Proposition de la 2 reponse à la 3 question-->
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="question3" id="Q3" value="tata">
+      <input class="form-check-input" type="radio" name="question3" id="Q3" value="Caroline, Rayan, Eva">
       <label class="form-check-label" for="exampleRadios2">
-        tata
+        Caroline, Rayan, Eva
       </label>
     </div> 
 <!-- Proposition de la 3 reponse à la 3 question-->
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="question3" id="Q3" value="micro">
+      <input class="form-check-input" type="radio" name="question3" id="Q3" value="Mélodie, Joshua, Lucie">
       <label class="form-check-label" for="exampleRadios1">
-        micro
+        Mélodie, Joshua, Lucie
       </label>
     </div>
 </div>
@@ -219,28 +218,28 @@ if(isset($_GET['total'])){
 <div class="container">
 	<div class="row">
 		<div class="input-group mb-3">
-			<input class="form-control" type="text" placeholder=" Question 4 : Quels sont les trois mots clés de notre concept ? " readonly>
+			<input class="form-control" type="text" placeholder=" Question 4 : L'application sera disponible sur quel plateforme de télèchargement ? " readonly>
 		</div>
 	</div>
   <!-- Proposition de la 1 reponse à la 4 question-->
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="question4" id="Q4" value="sigma">
+      <input class="form-check-input" type="radio" name="question4" id="Q4" value="IOS">
       <label class="form-check-label" for="exampleRadios1">
-        sigma
+        IOS
       </label>
     </div>
 <!-- Proposition de la 2 reponse à la 4 question-->
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="question4" id="Q4" value="omega">
+      <input class="form-check-input" type="radio" name="question4" id="Q4" value="Android">
       <label class="form-check-label" for="exampleRadios2">
-        omega
+        Android
       </label>
     </div> 
 <!-- Proposition de la 3 reponse à la 4 question-->
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="question4" id="Q4" value="tyty">
+      <input class="form-check-input" type="radio" name="question4" id="Q4" value="Les deux">
       <label class="form-check-label" for="exampleRadios1">
-        tyty
+        Les deux 
       </label>
     </div>
 </div>
@@ -253,28 +252,28 @@ if(isset($_GET['total'])){
 <div class="container">
 	<div class="row">
 		<div class="input-group mb-3">
-			<input class="form-control" type="text" placeholder=" Question 5 : Quels sont les trois mots clés de notre concept ? " readonly>
+			<input class="form-control" type="text" placeholder=" Question 5 : Comment c'est connu la team ? " readonly>
 		</div>
 	</div>
     <!-- Proposition de la 1 reponse à la 5 question-->
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="question5" id="Q5" value="tete">
+      <input class="form-check-input" type="radio" name="question5" id="Q5" value="Au travail">
       <label class="form-check-label" for="exampleRadios1">
-        tete
+        Au travail 
       </label>
     </div>
 <!-- Proposition de la 2 reponse à la 5 question-->
     <div class="form-check">
       <input class="form-check-input" type="radio" name="question5" id="Q5" value="gamma">
       <label class="form-check-label" for="exampleRadios2">
-        gamma
+        De la même famille
       </label>
     </div> 
 <!-- Proposition de la 3 reponse à la 5 question-->
     <div class="form-check">
       <input class="form-check-input" type="radio" name="question5" id="Q5" value="ampla">
       <label class="form-check-label" for="exampleRadios1">
-        ampla
+        Un projet innovant, co-working
       </label>
     </div>
 </div>

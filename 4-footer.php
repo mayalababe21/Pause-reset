@@ -6,28 +6,24 @@
             <div class="row">
               <div class="col-md-5">
                 <h2 class="footer-heading mb-4">A propos de la Team</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                <p>Passionnée par le digital nous avons trouvé ce concept par un simple constat. Rencontrés sur les bancs de l'école, nous avons créé notre Startup à notre image !</p>
               </div>
               <div class="col-md-3 ml-auto">
                 <h2 class="footer-heading mb-4">Tout pour être bien...</h2>
                 <ul class="list-unstyled">
-                  <li><a href="je-m-abonne.php">JE M'ABONNE !</a></li>
+                  <li><a href="je-m-abonne.php">Je m'abonne</a></li>
                   <li><a href="concept.php">Le Concept</a></li>
                   <li><a href="faq.php">L'Appli</a></li>
                   <li><a href="je-m-abonne.php">Tarifs</a></li>
-                  <br>
-                  <li><a href="blog.php">News</a></li>
-                  <br>
+                  <li><a href="blog.php">Blog</a></li>
                   <li><a href="faq.php">FAQ</a></li>
                   <li><a href="contact.php">Contactez-nous</a></li>
                 </ul>
               </div>
               <div class="col-md-3">
                 <h2 class="footer-heading mb-4">Suivez-nous !</h2>
-                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+                <a href="https://www.facebook.com/PauseReset-598422710657524/?modal=admin_todo_tour" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                <a href="https://raingrande.com/profile/pausereset47" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
               </div>
             </div>
           </div>

@@ -60,6 +60,7 @@ require 'conf/config-sql.php';
       </div>
     </div>  
 
+<!-- 1er question --> 
 
     <div class="card" id="accordionExample">
   <div class="card">
@@ -70,13 +71,15 @@ require 'conf/config-sql.php';
         </button>
       </h2>
     </div>
-
+<!-- 1 rep---> 
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body">
         C'est très simple, il vous suffit de s'inscrire sur notre newsletter ainsi vous aurez toutes les informations sur la sortie de l'application, des challenges. 
       </div>
     </div>
   </div>
+
+<!--- 2 question --->
   <div class="card">
     <div class="card-header" id="headingTwo">
       <h2 class="mb-0">
@@ -85,11 +88,12 @@ require 'conf/config-sql.php';
         </button>
       </h2>
     </div>
+<!--- 2 rep ---> 
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
       <div class="card-body">
         Oui bien évidemment, nous avons une partie de l'application qui est freenum pour que vous puissiez la découvrir tranquillement. 
-
-        <br></br>
+      
+<!--3 question--->
 
         <div class="container">
   <div class="card-deck mb-3 text-center">
@@ -125,7 +129,11 @@ require 'conf/config-sql.php';
       </div>
     </div>
   </div>
-  <div class="card">
+</div>
+
+
+  <!--- 4 questions ---> 
+    <div class="card">
     <div class="card-header" id="headingThree">
       <h2 class="mb-0">
         <button class="btn btn-link collapsed text-success" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -133,6 +141,9 @@ require 'conf/config-sql.php';
         </button>
       </h2>
     </div>
+
+<!--- 4 rep ---> 
+
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
       <div class="card-body">
         L'application est compatible que ce soit pour IOS ou pour Android. Il est très important pour nous que notre application soit accessible pour tous et partout. 
@@ -140,7 +151,9 @@ require 'conf/config-sql.php';
       </div>
     </div>
   </div>
-</div>
+ 
+
+<!--- 5 question ---> 
 <div class="card">
     <div class="card-header" id="headingThree">
       <h2 class="mb-0">
@@ -149,13 +162,16 @@ require 'conf/config-sql.php';
         </button>
       </h2>
     </div>
+
+<!--- 5 reponses ---> 
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
       <div class="card-body">
       Vous pouvez retrouver les challenges dans l'onglet "Challenges". 
       </div>
     </div>
   </div>
-</div>
+<!--- 6 questions ---> 
+
 <div class="card">
     <div class="card-header" id="headingThree">
       <h2 class="mb-0">
@@ -164,6 +180,8 @@ require 'conf/config-sql.php';
         </button>
       </h2>
     </div>
+
+<!--- 6 reponses ---> 
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
       <div class="card-body">
       Pour modifier votre code confidentiel sur le site internet :<br>
@@ -175,7 +193,8 @@ require 'conf/config-sql.php';
       </div>
     </div>
   </div>
-</div>
+<!--- 7 questions --->
+
 <div class="card">
     <div class="card-header" id="headingThree">
       <h2 class="mb-0">
@@ -184,6 +203,8 @@ require 'conf/config-sql.php';
         </button>
       </h2>
     </div>
+
+<!-- 7 reponses --->
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
       <div class="card-body">
         Vous pouvez nous signaler un dysfonctionnement de l'application ou autre par le biais de notre onglet "contact". <br>
@@ -196,6 +217,10 @@ require 'conf/config-sql.php';
     </div>
   </div>
 </div>
+</div>
+</div>
+</div>
+
    
     <!-- FIN 3-corps -->
     

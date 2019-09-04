@@ -99,7 +99,8 @@ require 'conf/config-sql.php';
             <div class="p-3 box-with-humber">
               <div class="number-behind">01.</div>
               <h2>Nos valeurs</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+              <p>
+Offrir une expérience unique à chaque pause ressourcante et re-vigourante.</p>
             </div>
           </div>
 
@@ -107,7 +108,9 @@ require 'conf/config-sql.php';
             <div class="p-3 box-with-humber">
               <div class="number-behind">02.</div>
               <h2>Notre mission</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+              <p>Articuler des pauses
+                compatibles avec des emplois du temps charges,en pleine adéquationavec les préconisations médicales anti-stress.
+              </p>
             </div>
           </div>
 
@@ -115,7 +118,8 @@ require 'conf/config-sql.php';
             <div class="p-3 box-with-humber">
               <div class="number-behind">03.</div>
               <h2>Notre philosophie</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+              <p>Varier les plaisirs et laisser l’internaute choisir son type de pauseau grès de ses envies, de ses humeurs ;rien de tel pour se re-booster !
+              </p>
             </div>
           </div>
         </div>
@@ -163,10 +167,10 @@ require 'conf/config-sql.php';
 
 
     
-    <a href="#" class="bg-success py-5 d-block">
+    <a href="quizz.php" class="bg-success py-5 d-block">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md10"><h2 class="text-white">Positivité &amp; Bien-être les mots clés pour continuer votre journée </h2></div>
+          <div class="col-md10"><h2 class="text-white">Cliquez est vous devenirez l'entrée</h2></div>
         </div>
       </div>  
     </a>

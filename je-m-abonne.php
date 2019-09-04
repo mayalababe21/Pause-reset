@@ -62,7 +62,7 @@ require 'conf/config-sql.php';
             <div class="row justify-content-center mb-4">
               <div class="col-md-8 text-center">
                 <h1>JE M'ABONNE !</h1>
-                <p class="lead mb-5">Je reste connecté avec Pause'Reset (applis Mobile et Desktop)</p>
+                <p class="lead mb-5">Je reste connecté avec Pause'Reset (applis Mobile)</p>
               </div>
             </div>
           </div>
@@ -81,10 +81,6 @@ require 'conf/config-sql.php';
             <br>- <strong>Iphone</strong> = Télécharger l'application sur le store de votre télèphone qui pour votre cas est AppStore (icone bleu) et faites une recherche. </br>
 
            <br> - <strong> Android</strong> = Télécharger l'application sur le store de votre téléphone qui pour votre cas est Google Play Store. Appuyez sur l'icone dans votre télèphone est rechercher notre application 'Pause Reset' dans la barre de recherche. </br></p>
-
-          <p text="justify-content-center">Dans le cas ou c'est pour un ordinateur, nous avons créée la version <strong>desktop </strong>qui sera parfaite pour vous, il suffit de trouver sur internet (Google ou Qwant par exemple) et de rechercher notre application. 
-          <br>Vous pouvez également retrouver l'application dans les Stores des ordinateurs (Mac et Windows). </br></p>
-
 
           Pour vous simplifier la vie, vous pouvez trouver en dessous des liens directes vers notre application via les stores. <br>
 
@@ -132,18 +128,6 @@ require 'conf/config-sql.php';
                 <p>Retrouvez notre application sous Android dans le Play Store.</p>
                 <p><a href="#">Télécharger</a></p>
                 <div><img src="images/jemabonne_googleplay.png" width="50" alt="Image" class="img-fluid"></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-success"></span>
-                <img src="images/jemabonne_upload.png" alt="Image" class="img-fluid"></div>
-              <div>
-                <h3>Pause'Reset - Bureau (Mac et Windows)</h3>
-                <p>Retrouvez le lien direct pour télécharger notre application de bureau.</p>
-                <p><a href="#">Télécharger version Mac</a></p>
-                <p><a href="#">Télécharger version Windows</a></p>
               </div>
             </div>
           </div>

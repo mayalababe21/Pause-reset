@@ -1620,7 +1620,7 @@ h1, h2, h3, h4, h5,
   
 }
 .box-with-humber h2 {
-  color: rgba(139,195,74,0.9); /*Eva*/
+  color: rgba(175,140,27); /*Eva*/
   
 }
   .box-with-humber .number-behind {
@@ -1630,7 +1630,25 @@ h1, h2, h3, h4, h5,
     top: -4rem;
     left: -3rem;
     font-weight: 900;
-    color: rgba(175,139,27,0.5); }
+    color: rgba(227,4,83,0.5); }
+
+  .box-with-humber .number-behind2 {
+    font-size: 8rem;
+    position: absolute;
+    z-index: -1;
+    top: -4rem;
+    left: -3rem;
+    font-weight: 900;
+    color: rgba(158,194,37,0.5); }
+      .box-with-humber .number-behind3 {
+    font-size: 8rem;
+    position: absolute;
+    z-index: -1;
+    top: -4rem;
+    left: -3rem;
+    font-weight: 900;
+    color: rgba(59,184,198,0.5); }
+
 
 
 .media-1 {

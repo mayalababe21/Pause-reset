@@ -77,37 +77,11 @@ require 'conf/config-sql.php';
       
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-lg-4 mb-4">
-            <a href="challenge_20190601.php" class="media-1">
-              <img src="images/img_1.png" alt="Image" class="img-fluid">
-              <div class="media-1-content">
-                <h2>Challenge 1 - Juin 2019</h2>
-                <span class="category">"La chasse à la pause ou la pause chasse"</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4">
-            <a href="challenge_20190701.php" class="media-1">
-              <img src="images/images_2.png" alt="Image" class="img-fluid">
-              <div class="media-1-content">
-                <h2>Challenge 2 - Juillet 2019</h2>
-                <span class="category">Branding</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4">
-            <a href="challenge_20190801.php" class="media-1">
-              <img src="images/img_1.png" alt="Image" class="img-fluid">
-              <div class="media-1-content">
-                <h2>Challenge 3 - Aout 2019</h2>
-                <span class="category">Website</span>
-              </div>
-            </a>
-          </div>
+          
 
           <div class="col-md-6 col-lg-4 mb-4">
             <a href="challenge_20190901.php" class="media-1">
-              <img src="images/img_1.png" alt="Image" class="img-fluid">
+              <img src="images/jeu4.jpg" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>Challenge 4 - Septembre 2019</h2>
                 <span class="category">Web Application</span>
@@ -116,7 +90,7 @@ require 'conf/config-sql.php';
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <a href="challenge_20191001.php" class="media-1">
-              <img src="images/img_1.png" alt="Image" class="img-fluid">
+              <img src="images/jeu5.jpg" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>Challenge 5 - Octobre 2019</h2>
                 <span class="category">Branding</span>
@@ -125,7 +99,7 @@ require 'conf/config-sql.php';
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <a href="challenge_20191101.php" class="media-1">
-              <img src="images/img_1.png" alt="Image" class="img-fluid">
+              <img src="images/jeu6.jpg" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>Challenge 6 - Novembre 2019</h2>
                 <span class="category">Website</span>
@@ -135,7 +109,7 @@ require 'conf/config-sql.php';
 
           <div class="col-md-6 col-lg-4 mb-4">
             <a href="challenge_20191201.php" class="media-1">
-              <img src="images/img_1.png" alt="Image" class="img-fluid">
+              <img src="images/jeu7.jpg" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>Challenge 7 - Décembre 2019</h2>
                 <span class="category">Web Application</span>
@@ -144,7 +118,7 @@ require 'conf/config-sql.php';
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <a href="challenge_20200101.php" class="media-1">
-              <img src="images/img_1.png" alt="Image" class="img-fluid">
+              <img src="images/jeu8.jpg" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>Challenge 8 - Janvier 2020</h2>
                 <span class="category">Branding</span>
@@ -153,7 +127,7 @@ require 'conf/config-sql.php';
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <a href="challenge_20200201.php" class="media-1">
-              <img src="images/img_1.png" alt="Image" class="img-fluid">
+              <img src="images/feuille-index.jpg" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>Challenge 9 - Février 2020</h2>
                 <span class="category">Website</span>

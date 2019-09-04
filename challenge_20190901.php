@@ -63,7 +63,19 @@ require 'conf/config-sql.php';
     <section>
       <div class="container">
         <div class="row">
-            <h1>- Challenge de Septembre 2019 -</h1>
+            <h1>- Challenge de Septembre 2019 -</h1><br>
+            <h1>Et oui, c'est partie que le premier challenge commence ! </h1><br>
+            <p> C'est le premier donc je vous explique un peu le concept, nous sommes une petite start-up qui va lancer dans très peu de temps une application géniale appelée : Pause Reset ! </p><br>
+            <p> L'intégralité de nos challenges vous font gagner des points, chaque point à une valeur</p>
+            <p>Nous vous expliquons, il existe différents paliers et à chaque paliers franchis vous gagner des cadeaux, c'est pas chouette ça ? En est plus c'est 100% gratuit !</p><br>
+            <p>Oui nous penson à vous mais également à votre bonheur et bien-être c'est le concept !</p>
+            <p> Pour ce premier challenge, une "chasse" est ouverte. 
+            Pour trouver l'entrée de cette chasse vous devez arpenter l'intégralité de notre site !</p>
+            <p> Bonne chasse à tous et que le meilleur gagne. <br>
+             Petit indice : commencez par le concept, c'est judicieux !
+            <br>
+            <b>L'équipe Pause Reset.
+            <br /></p>
         </div>
       </div>
     </section>
