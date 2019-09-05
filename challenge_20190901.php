@@ -63,8 +63,8 @@ require 'conf/config-sql.php';
     <section>
       <div class="container">
         <div class="row">
-            <h1>- Challenge de Septembre 2019 -</h1><br>
-            <h1>Et oui, c'est partie que le premier challenge commence ! </h1><br>
+            <h1 class="text-info">- Challenge de Septembre 2019 -<br></h1>
+            <h2 class="text-success">Et oui, c'est partie que le premier challenge commence ! </h1><br>
             <p> C'est le premier donc je vous explique un peu le concept, nous sommes une petite start-up qui va lancer dans très peu de temps une application géniale appelée : Pause Reset ! </p><br>
             <p> L'intégralité de nos challenges vous font gagner des points, chaque point à une valeur</p>
             <p>Nous vous expliquons, il existe différents paliers et à chaque paliers franchis vous gagner des cadeaux, c'est pas chouette ça ? En est plus c'est 100% gratuit !</p><br>

@@ -51,7 +51,7 @@ require 'conf/config-sql.php';
             <div class="row justify-content-center mb-4">
               <div class="col-md-8 text-center">
                 <h1>FAQ</h1>
-                <p class="lead mb-5">Tout ce que vous voulez savoir : Appli Mobile Android & IOS, Appli Desktop PC & Mac, Tarifs...</p>
+                <p class="lead mb-5">Tout ce que vous voulez savoir : Appli Mobile Android & IOS, Tarifs...</p>
               </div>
             </div>
 
@@ -66,7 +66,7 @@ require 'conf/config-sql.php';
   <div class="card">
     <div class="card-header" id="headingOne">
       <h2 class="mb-0">
-        <button class="btn btn-link text-success" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button class="btn btn-link text-warning" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           Comment puis-je être avertis de la sortie de l'application ? 
         </button>
       </h2>
@@ -102,10 +102,10 @@ require 'conf/config-sql.php';
         <h4 class="my-0 font-weight-normal">Free</h4>
       </div>
       <div class="card-body">
-        <h1 class="card-title pricing-card-title text-success">0 €<small class="text-muted">/an</small></h1>
+        <h1 class="card-title pricing-card-title text-info">0 €<small class="text-muted">/an</small></h1>
         <ul class="list-unstyled mt-3 mb-6">
           <li>Gratuit</li>
-          <li>Limite à 3 séances</li>
+          <li>Limite à 2 séances</li>
           <li>Pause'Reset par jour</li>
           <li>Bonus</li>
         </ul>
@@ -116,8 +116,10 @@ require 'conf/config-sql.php';
         <h4 class="my-0 font-weight-normal">Premium</h4>
       </div>
       <div class="card-body border-success">
-        <h1 class="card-title pricing-card-title text-success">5,40 €<small class="text-muted">/pour 6 mois</small></h1>
-        <h1 class="card-title pricing-card-title text-success">10,80 €<small class="text-muted">/pour 1 an</small></h1>
+        <h1 class="card-title pricing-card-title text-info">3,99 €<small class="text-muted">/version 1 mois</small></h1>
+        <h1 class="card-title pricing-card-title text-info">8,99 €<small class="text-muted">/version 3 mois + 1 mois offert</small></h1>
+        <h1 class="card-title pricing-card-title text-info">14,99 €<small class="text-muted">/version 6 mois + 2 mois offert</small></h1>
+        <h1 class="card-title pricing-card-title text-info">21,99 €<small class="text-muted">/1 an + 3 mois offert</small></h1>
         <ul class="list-unstyled mt-3 mb-6">
           <li>Accès à toutes les fonctionnalités en illimité</li>
           <li>Fonctionnalités +, cadeaux +</li>
@@ -136,7 +138,7 @@ require 'conf/config-sql.php';
     <div class="card">
     <div class="card-header" id="headingThree">
       <h2 class="mb-0">
-        <button class="btn btn-link collapsed text-success" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <button class="btn btn-link collapsed text-info" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           L'application est-elle compatible pour IOS et Android ? 
         </button>
       </h2>
@@ -157,7 +159,7 @@ require 'conf/config-sql.php';
 <div class="card">
     <div class="card-header" id="headingThree">
       <h2 class="mb-0">
-        <button class="btn btn-link collapsed text-success" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <button class="btn btn-link collapsed text-warning" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
         Ou peut-on retrouver les challenges / jeux ? 
         </button>
       </h2>
@@ -198,7 +200,7 @@ require 'conf/config-sql.php';
 <div class="card">
     <div class="card-header" id="headingThree">
       <h2 class="mb-0">
-        <button class="btn btn-link collapsed text-success" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <button class="btn btn-link collapsed text-info" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           Comment signaler un dysfonctionnement de l’application ou autre ? 
         </button>
       </h2>

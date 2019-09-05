@@ -61,7 +61,7 @@ require 'conf/config-sql.php';
                         
             <div class="row justify-content-center mb-4">
               <div class="col-md-8 text-center">
-                <h1>JE M'ABONNE !</h1>
+                <h1>Je m'abonne !</h1>
                 <p class="lead mb-5">Je reste connecté avec Pause'Reset (applis Mobile)</p>
               </div>
             </div>
@@ -74,13 +74,13 @@ require 'conf/config-sql.php';
       <div class="container">
         <div class="row align-items-stretch">
           <div class="col-md-6" data-aos="fade-up">
-          <h2>Comment télécharger notre application ?</h2>
+          <h2 class="text-info">Comment télécharger notre application ?</h2>
           <p text="justify-content-center">En réalité c'est très simple, celà dépend de ce que vous utiliser comme outils. (exemple : téléphone, ordinateur). 
             <br>
             Dans le cas ou c'est le télèphone deux options s'offre à vous selon votre mobile : </br>
-            <br>- <strong>Iphone</strong> = Télécharger l'application sur le store de votre télèphone qui pour votre cas est AppStore (icone bleu) et faites une recherche. </br>
+            <br>- <strong class="text-warning">Iphone</strong> = Télécharger l'application sur le store de votre télèphone qui pour votre cas est AppStore (icone bleu) et faites une recherche. </br>
 
-           <br> - <strong> Android</strong> = Télécharger l'application sur le store de votre téléphone qui pour votre cas est Google Play Store. Appuyez sur l'icone dans votre télèphone est rechercher notre application 'Pause Reset' dans la barre de recherche. </br></p>
+           <br> - <strong class="text-warning"> Android</strong> = Télécharger l'application sur le store de votre téléphone qui pour votre cas est Google Play Store. Appuyez sur l'icone dans votre télèphone est rechercher notre application 'Pause Reset' dans la barre de recherche. </br></p>
 
           Pour vous simplifier la vie, vous pouvez trouver en dessous des liens directes vers notre application via les stores. <br>
 

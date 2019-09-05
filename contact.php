@@ -168,7 +168,7 @@ if(!empty($_POST)){  // Empty veut dire "vide" // Est-ce que quelque chose à é
 
             <form method="post" action="#" class="p-5 bg-white">
               
-              <h2 class="h4 text-black mb-5">Formulaire de contact</h2> 
+              <h2 class="h4 text-info mb-5">Formulaire de contact</h2> 
 
               <div class="row form-group">
                 <div class="col-md-6 mb-3 mb-md-0">
@@ -206,7 +206,7 @@ if(!empty($_POST)){  // Empty veut dire "vide" // Est-ce que quelque chose à é
 
               <div class="row form-group">
                 <div class="col-md-12">
-                  <input type="submit" value="Envoyé mon formulaire" class="btn btn-success btn-md text-white">
+                  <input type="submit" value="Envoyé mon formulaire" class="btn btn-info btn-md text-white">
                 </div>
               </div>
             </form>
@@ -228,7 +228,7 @@ if(!empty($_POST)){  // Empty veut dire "vide" // Est-ce que quelque chose à é
             <div class="p-4 mb-3 bg-white">
               <h3 class="h5 text-black mb-3">Besoin d'aide ?</h3>
               <p>Si vous n'arrivez à une étape de téléchargement de notre application, ou si vous avez une question concernant notre projet vous pouvez vous diriger vers l'onglet F.A.Q qui peut vous aiguiller. Si vous ne trouvez pas de réponse et que votre problème persiste n'hésitez pas à nous contacter.</p>
-              <p><a href="faq.php" class="btn btn-success btn-md text-white">Aller sur l'onglet F.A.Q</a></p>
+              <p><a href="faq.php" class="btn btn-warning btn-md text-white">Aller sur l'onglet F.A.Q</a></p>
             </div>
 
           </div>

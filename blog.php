@@ -59,6 +59,10 @@ require 'conf/config-sql.php';
         </div>
       </div>
     </div>  
+    <br>
+    <div>
+      <h3 class="text-info">Nos articles de blog</h3>
+    </div>
     
     <section class="site-section">
       <div class="container">
@@ -94,17 +98,7 @@ require 'conf/config-sql.php';
                 </div> 
               </div>
               
-            <div class="row">
-              <div class="col-12">
-                <div class="custom-pagination text-center">
-                  <span>1</span>
-                  <a href="#">2</a>
-                  <a href="#">3</a>
-                  <span class="more-page">...</span>
-                  <a href="#">10</a>
-                </div>
-              </div>
-            </div>
+            
           </div> 
 
         </div>

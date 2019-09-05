@@ -6,7 +6,7 @@
             <div class="row">
               <div class="col-md-5">
                 <h2 class="footer-heading mb-4">A propos de la Team</h2>
-                <p>Passionnée par le digital nous avons trouvé ce concept par un simple constat. Rencontrés sur les bancs de l'école, nous avons créé notre Startup à notre image !</p>
+                <p>Passionnée par le digital nous avons trouvé ce concept par un simple constat. Rencontrés en cours, nous avons créé notre Startup à notre image !</p>
               </div>
               <div class="col-md-3 ml-auto">
                 <h2 class="footer-heading mb-4">Tout pour être bien...</h2>

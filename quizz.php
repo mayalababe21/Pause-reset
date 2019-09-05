@@ -111,7 +111,7 @@ if(isset($_GET['total'])){
 <section id="quizz-entree-secrete">
 	<div class="container">
   <h1> Bravo, tu viens de découvrir l'entrée secrète de la chasse.</h1>
-	<p class="lead mb-5 text-center"> Réponds correctement à ce quizz, attention tu n'auras qu'une seule chance ! <br> Toutes les réponses sont à l'intérieure du site, à toi de trouver les indices cachés ! </p>
+	<p class="lead mb-5 text-center"> Réponds correctement à ce quizz, attention tu n'auras qu'une seule chance !<br> Toutes les réponses sont à l'intérieure du site, à toi de trouver les indices cachés ! </p>
   </div>
 
 <form method="post">
@@ -121,7 +121,8 @@ if(isset($_GET['total'])){
 
 <div class="container">
 	<div class="row">
-		<div class="input-group mb-3">"Au travailntrol" type="text" placeholder=" Question 1 : Quel est le nom de notre marque ? " readonly>
+		<div class="input-group mb-3">
+    <input class="form-control" type="text" placeholder="Question 1 : Quel est le nom de notre marque ?" readonly>
 		</div>
 </div>
 <!-- Proposition de la 1 reponse à la 1 question-->
@@ -259,7 +260,7 @@ if(isset($_GET['total'])){
     <div class="form-check">
       <input class="form-check-input" type="radio" name="question5" id="Q5" value="Au travail">
       <label class="form-check-label" for="exampleRadios1">
-        Au travail 
+        En cours 
       </label>
     </div>
 <!-- Proposition de la 2 reponse à la 5 question-->

@@ -65,7 +65,7 @@ require 'conf/config-sql.php';
         <div class="row">
           <div class="col-12 mb-4">
               <div class="text-left pb-1 border-success mb-4">
-                 <h1 class="text-success">Nos challenges, vos cadeaux !</h1>
+                 <h1 class="text-info">Nos challenges, vos cadeaux !</h1>
                     <p>Vous pouvez retrouver ici tous nos challenges qui seront éveillés votre instinct d'enquêteurs, en passant par des quizz ou tout autre challenge.</p>
               </div>
            </div> 
@@ -83,8 +83,8 @@ require 'conf/config-sql.php';
             <a href="challenge_20190901.php" class="media-1">
               <img src="images/jeu4.jpg" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Challenge 4 - Septembre 2019</h2>
-                <span class="category">Web Application</span>
+                <h2>Challenge 1 - Septembre 2019</h2>
+                <span class="category">La chasse</span>
               </div>
             </a>
           </div>
@@ -92,8 +92,8 @@ require 'conf/config-sql.php';
             <a href="challenge_20191001.php" class="media-1">
               <img src="images/jeu5.jpg" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Challenge 5 - Octobre 2019</h2>
-                <span class="category">Branding</span>
+                <h2>Challenge 2 - Octobre 2019</h2>
+                <span class="category">Ouverture prochainement</span>
               </div>
             </a>
           </div>
@@ -101,8 +101,8 @@ require 'conf/config-sql.php';
             <a href="challenge_20191101.php" class="media-1">
               <img src="images/jeu6.jpg" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Challenge 6 - Novembre 2019</h2>
-                <span class="category">Website</span>
+                <h2>Challenge 3 - Novembre 2019</h2>
+                <span class="category">Ouverture prochainement</span>
               </div>
             </a>
           </div>
@@ -111,8 +111,8 @@ require 'conf/config-sql.php';
             <a href="challenge_20191201.php" class="media-1">
               <img src="images/jeu7.jpg" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Challenge 7 - Décembre 2019</h2>
-                <span class="category">Web Application</span>
+                <h2>Challenge 4 - Décembre 2019</h2>
+                <span class="category">Ouverture prochainement</span>
               </div>
             </a>
           </div>
@@ -120,8 +120,8 @@ require 'conf/config-sql.php';
             <a href="challenge_20200101.php" class="media-1">
               <img src="images/jeu8.jpg" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Challenge 8 - Janvier 2020</h2>
-                <span class="category">Branding</span>
+                <h2>Challenge 5 - Janvier 2020</h2>
+                <span class="category">Ouverture prochainement</span>
               </div>
             </a>
           </div>
@@ -129,8 +129,8 @@ require 'conf/config-sql.php';
             <a href="challenge_20200201.php" class="media-1">
               <img src="images/feuille-index.jpg" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Challenge 9 - Février 2020</h2>
-                <span class="category">Website</span>
+                <h2>Challenge 6 - Février 2020</h2>
+                <span class="category">Ouverture prochainement</span>
               </div>
             </a>
           </div>

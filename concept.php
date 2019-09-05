@@ -76,7 +76,7 @@ require 'conf/config-sql.php';
 
               <div class="col-12 mb-4">
                 <div class="text-left pb-1 border-success mb-4">
-                  <h2 class="text-success">Notre concept</h2>
+                  <h2 class="text-info">Notre concept</h2>
                   <p> C'est une application mobile et desktop conçue pour offrir, tout au long de la journée de façon régulière et personnalisée, des micro-pauses. Notre programme permet à l’utilisateur de choisir au préalable selon ses préférences et ses envies des thématiques et des exercices ciblés.</p> 
                 
                   <p>Notre programme permet à l’utilisateur de s’évader, de trouver le sourire grace à un instant de joie et de divertissement. Pause’Reset est un programme auto-apprenant, par conséquent le contenu est personnalisé afin qu’il puisse parfaitement correspondre aux envies de son utilisateur. </p>
@@ -132,32 +132,32 @@ Offrir une expérience unique à chaque pause ressourcante et re-vigourante.</p>
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center border-success">
-            <h2 class="font-weight-light text-success" data-aos="fade">Notre team</h2>
+            <h2 class="font-weight text-success" data-aos="fade">Notre Team</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
             <div class="person">
-              <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
+              <img src="images/eva.png" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
               <h3>Eva Pourcel</h3>
-              <p class="position text-muted">Co-Founder, President</p>
+              <p class="position text-muted">Co-fondateur</p>
               <p class="mb-4">"Notre temps est précieux, gardons le pour les applications qui nous épanouissent."</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
             <div class="person">
-              <img src="images/person_3.jpg" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
+              <img src="images/rayan.png" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
               <h3>Rayan Ducastelle</h3>
-              <p class="position text-muted">Co-Founder, COO</p>
-              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
+              <p class="position text-muted">Co-fondateur</p>
+              <p class="mb-4">Nous réalisons les plus grandes choses dans la vie,  quand nous sommes heureux.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="300">
             <div class="person">
-              <img src="images/person_4.jpg" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
+              <img src="images/caroline.png" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
               <h3>Caroline Faget</h3>
-              <p class="position text-muted">Marketing</p>
-              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
+              <p class="position text-muted">Co-fondateur</p>
+              <p class="mb-4">Le bien-être et le bonheur doivent être à la portée de tous, rendons le accessible.</p>
             </div>
           </div>
         </div>
@@ -170,7 +170,7 @@ Offrir une expérience unique à chaque pause ressourcante et re-vigourante.</p>
     <a href="quizz.php" class="bg-success py-5 d-block">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md10"><h2 class="text-white">Cliquez est vous devenirez l'entrée</h2></div>
+          <div class="col-md10"><h2 class="text-white">Cliquez ici est vous devinerez l'entrée</h2></div>
         </div>
       </div>  
     </a>
